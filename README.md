@@ -1,3 +1,6 @@
+The development of this short-lived bot was discontinued. I'll continue develop it as a new closed-source bot. There is a little chance that it will return to the open-source format under a new name.
+---
+
 # OpenWorld
 An open-source Discord bot for RP servers.
 
