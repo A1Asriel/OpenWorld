@@ -1,4 +1,4 @@
-import discord, requests, random, json
+import discord, random, json
 from discord.ext import commands
 
 with open('cfg.json') as cfg_f:
@@ -9,9 +9,9 @@ class Common(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.command(aliases = ['roll'])
+    @commands.command(aliases = [])
     @commands.guild_only()
-    async def roll_print(self, ctx, num='100'):
+    async def roll(self, ctx, num='100'):
 
         try:
             if int(num)>1000000:

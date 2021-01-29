@@ -1,5 +1,6 @@
 {
-	"version": "Alpha 1.2 (21d24b)",
+	"version": "Alpha 1.3 (21d29b)",
 	"token": "not_a_token",
-	"is_canary": false
+	"is_canary": false,
+	"owner": insert_your_id_here
 }

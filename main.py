@@ -1,6 +1,4 @@
-import discord
-import json
-import requests
+import discord, json
 
 from discord.utils import get
 from discord.ext import commands
@@ -21,7 +19,7 @@ def get_prefix(bot, message):
     return commands.when_mentioned_or(*prefixes)(bot, message)
 
 
-cmds=['cmds.roll']
+cmds=['cmds.roll', 'cmds.stop']
 
 bot=commands.Bot(command_prefix=get_prefix, intents=discord.Intents.all())
 
